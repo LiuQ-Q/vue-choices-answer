@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <p>{{ options.title }}</p>
+  <div class="ca-paper">
+    <p class="ca-title">{{ options.title }}</p>
     <div
       v-for="(question, index) in questionList"
       :key="index + question.question"
@@ -14,7 +14,7 @@
         v-model="answerList[index]"
       />
     </div>
-    <button @click="submit">提交</button>
+    <button class="ca-btn" @click="submit">{{ options.submitText }}</button>
   </div>
 </template>
 

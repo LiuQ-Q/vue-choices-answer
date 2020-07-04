@@ -1,15 +1,22 @@
 <template>
-  <div>
-    <p>{{ number + 1 }}. {{ options.question }}</p>
+  <div class="ca-single">
+    <p class="ca-question">{{ number + 1 }}. {{ options.question }}</p>
     <!-- {{options.optionList}} -->
-    <div v-for="(item, index) in options.optionList" :key="index + item">
+    <div
+      v-for="(item, index) in options.optionList"
+      :key="index + item"
+      class="ca-choices"
+    >
       <input
         type="radio"
         :id="`single-${index}`"
         :value="index"
         v-model="answer"
+        class="ca-choices-input"
       />
-      <label :for="`single-${index}`">{{ item }}</label>
+      <label :for="`single-${index}`" class="ca-choices-label">
+        {{ item }}
+      </label>
     </div>
   </div>
 </template>

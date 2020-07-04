@@ -11,13 +11,14 @@ export default {
   data() {
     return {
       options: {
-        title: "考试",
+        title: "问答共20道题, 每题5分, 60分以上合格",
         question: questionStore,
         score: {
           single: 20,
           multiple: 20
         },
-        number: 5
+        number: 5,
+        submitText: "确定"
       }
     };
   },
