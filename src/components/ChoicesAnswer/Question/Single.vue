@@ -1,9 +1,9 @@
 <template>
   <div class="ca-single">
     <p class="ca-question">{{ number + 1 }}. {{ options.question }}</p>
-    <!-- {{options.optionList}} -->
+    <!-- {{options.choiceList}} -->
     <div
-      v-for="(item, index) in options.optionList"
+      v-for="(item, index) in options.choiceList"
       :key="index + item"
       class="ca-choices"
     >

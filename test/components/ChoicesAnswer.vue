@@ -11,7 +11,7 @@ export default {
   data() {
     return {
       options: {
-        title: "问答共20道题, 每题5分, 60分以上合格",
+        title: "问答共5道题, 每题20分, 60分以上合格",
         question: questionStore,
         score: {
           single: 20,

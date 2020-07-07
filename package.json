@@ -1,17 +1,37 @@
 {
   "name": "vue-choices-answer",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
+  "author": {
+    "name": "LiuQ-Q"
+  },
+  "bugs": {
+    "url": "https://github.com/LiuQ-Q/vue-choices-answer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiuQ-Q/vue-choices-answer.git"
+  },
+  "homepage": "https://github.com/LiuQ-Q/vue-choices-answer",
+  "files": [
+    "/src"
+  ],
+  "keywords": [
+    "vue",
+    "vue component",
+    "vue choices and answer"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-eslint": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
